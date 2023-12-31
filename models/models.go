@@ -8,3 +8,8 @@ type SecretRDSJson struct {
 	Port                int    `json: "port"`
 	DbClusterIdentifier string `json: "dbClusterIdentifier"`
 }
+
+type SignUp struct {
+	UserEmail string `json:"UserEmail"`
+	UserUUID  string `json:"UserUUID"`
+}
