@@ -7,7 +7,7 @@ import (
 
 	"github.com/LucioSchiavoni/go-aws/models"
 	"github.com/LucioSchiavoni/go-aws/secret"
-	_ "github.com/go-sql-driver/mysq"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 var SecretModel models.SecretRDSJson

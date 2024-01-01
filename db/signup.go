@@ -5,7 +5,7 @@ import (
 
 	"github.com/LucioSchiavoni/go-aws/models"
 	"github.com/LucioSchiavoni/go-aws/tools"
-	_ "github.com/go-sql-driver/mysq"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 func SignUp(sig models.SignUp) error {
